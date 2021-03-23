@@ -1156,6 +1156,10 @@
 		list-style-type: none;
 	}
 
+	.mission {
+		text-align: left;
+	}
+
 /* Footer */
 
 	#footer {
