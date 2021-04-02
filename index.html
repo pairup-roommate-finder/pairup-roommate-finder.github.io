@@ -22,6 +22,13 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
+		<script>
+			let xmlHttp = new XMLHttpRequest();
+			xmlHttp.withCredentials = true;
+			xmlHttp.open('GET', 'https://hitcounter.pythonanywhere.com/count', false);
+			xmlHttp.send(null);
+			count = xmlHttp.responseText;
+		</script>
 	</head>
 	<body class="landing">
 
@@ -43,6 +50,7 @@
 				<h2>Roommate Finder</h2>
 				<p>Find a Roommate, Find a Friend​</p>
 				<img src="images/logo.png">
+
 				<!--
 				<ul class="actions">
 					<li>
@@ -73,15 +81,15 @@
 								</li>
 						</ul>
 					</header>
-					
+
 				</div>
 			</section>
-			
+
 
 			<section id="one" class="wrapper style1 special">
 				<div class="container">
 					<header class="major">
-						
+
 					</header>
 					<div class="row 150%">
 						<div class="4u 12u$(medium)">
@@ -118,14 +126,14 @@
 					</div>
 				</div>
 			</section>
-			
+
 			<!--Our App banner-->
 			<section id="two" class="wrapper style2 special">
 				<div class="container">
 					<header class="major">
 						<h2>Our App</h2>
 					</header>
-					
+
 					<img class="screen" src="images/Screen6.png" width="350">
 					<img class="screen" src="images/Screen5.png" width="350">
 					<img class="screen" src="images/Screen4.png" width="350">
@@ -137,18 +145,18 @@
 
 			<section id="one" class="wrapper style1 special">
 				<div class="container">
-					
-					
+
+
 						<i class="icon big rounded color9 fas fa-dollar-sign"></i>
-						
+
 						<h3>Our Prices</h3>
 						<ul class="feature_benefit_function prices">
 							<li>Basic Subscription - Free​</li>
 							<li>Premium - $5.99/year</li>
 							<li>Contact us for University Pricing </li>
 						</ul>
-					
-					
+
+
 				</div>
 			</section>
 
@@ -160,7 +168,7 @@
 						<h2>Lorem ipsum dolor sit</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, autem.</p>
 					</header>
-					
+
 					<section class="profiles">
 						<div class="row">
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
@@ -185,7 +193,7 @@
 							</section>
 						</div>
 					</section>
-				
+
 					<footer>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolore illum, temporibus veritatis eligendi, aliquam, dolor enim itaque veniam aut eaque sequi qui quia vitae pariatur repudiandae ab dignissimos ex!</p>
 						<ul class="actions">
@@ -195,7 +203,7 @@
 						</ul>
 					</footer>
 				</div>
-				
+
 			</section>
 			-->
 
@@ -206,7 +214,7 @@
 						<h2>Lorem ipsum dolor sit</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, autem.</p>
 					</header>
-					
+
 					<section class="profiles">
 						<div class="row">
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
@@ -231,7 +239,7 @@
 							</section>
 						</div>
 					</section>
-				
+
 					<footer>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolore illum, temporibus veritatis eligendi, aliquam, dolor enim itaque veniam aut eaque sequi qui quia vitae pariatur repudiandae ab dignissimos ex!</p>
 						<ul class="actions">
@@ -241,7 +249,7 @@
 						</ul>
 					</footer>
 				</div>
-				
+
 			</section>
 			-->
 
