@@ -23,11 +23,13 @@
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
 		<script>
-			let xmlHttp = new XMLHttpRequest();
-			xmlHttp.withCredentials = true;
-			xmlHttp.open('GET', 'https://hitcounter.pythonanywhere.com/count', false);
-			xmlHttp.send(null);
-			count = xmlHttp.responseText;
+            let targetUrl = 'https://pairup-roommate-finder.github.io';
+            let query = '?url=' + encodeURIComponent(targetUrl);
+            let xmlHttp = new XMLHttpRequest();
+            xmlHttp.withCredentials = true;
+            xmlHttp.open('GET', 'https://hitcounter.pythonanywhere.com/count' + query, false);
+            xmlHttp.send(null);
+            count = xmlHttp.responseText;
 		</script>
 	</head>
 	<body class="landing">
