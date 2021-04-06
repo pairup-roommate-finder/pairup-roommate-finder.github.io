@@ -1077,6 +1077,7 @@
 /* Wrapper */
 		.feature_benefit_function{
 			text-align: left;
+			list-style: none;
 		}
 	.wrapper {
 		padding: 6em 0em 4em;
@@ -1159,6 +1160,18 @@
 	.mission {
 		text-align: left;
 		list-style: none;
+	}
+
+	.premium {
+		text-align: center;
+		list-style: none;
+	}
+
+	.premium_feature {
+		margin: 5%;
+	}
+	.feature {
+		margin-bottom: 0%;
 	}
 
 /* Footer */
