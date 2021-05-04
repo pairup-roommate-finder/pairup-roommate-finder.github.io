@@ -12,7 +12,7 @@
 
 	.brochure_header{
 		color: blue;
-	}	
+	}
 
 	body {
 		background: #fff;
@@ -167,7 +167,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 750px;
   position: relative;
   margin: auto;
 }
@@ -185,12 +185,16 @@
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+}
+
+.prev {
+	left: 0;
 }
 
 /* Position the "next button" to the right */
@@ -206,11 +210,11 @@
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #000000;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: -16px;
   width: 100%;
   text-align: center;
 }
@@ -256,6 +260,11 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.center {
+	margin: auto;
+	text-align: center;
 }
 
 /* Section/Article */
@@ -505,9 +514,9 @@
 
 	.box {
 		border-radius: 4px;
-		
+
 		margin-bottom: 1em;
-		padding: 1.5em;
+		/*padding: 1.5em;*/
 	}
 
 		.box > :last-child,
@@ -686,11 +695,11 @@
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
+		/*padding-left: 1em;*/
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			/*padding-left: 0.5em;*/
 		}
 
 		ul.alt {
@@ -1356,7 +1365,7 @@
 			border-radius: 0 4px 4px 0;
 		}
 
-	
+
 	.screen{
 		height: 10%;
 	}
